@@ -26,7 +26,7 @@ const Skills = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center py-10 gap-10 sm:gap-0">
+      <div className="flex flex-col md:flex-row justify-center items-center py-10 gap-10 sm:gap-6">
         <div
           style={{ boxShadow: "0px 0px 8px blueviolet" }}
           className="__left h-[350px] shadow-xl rounded-2xl border-[1px] border-[blueviolet] w-full md:h-[420px] lg:h-[350px] md:w-[450px] bg-[#101725] p-4 md:mr-5 sm:mb-10 md:mb-0"
