@@ -33,21 +33,13 @@ const Education = () => {
           <h1 className="text-zinc-400 my-4 font-bold">Grade: 7.45</h1>
           <div>
             <p className="text-zinc-400 text-[15px]">
-              I am currently pursuing a Bachelor's degree in Computer Science
-              and Engineering at Kalinga Institute of Industrial Technology,
-              Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71.
-              I have taken courses in Data Structures, Algorithms,
-              Object-Oriented Programming, Database Management Systems,
-              Operating Systems, and Computer Networks, among others. I am also
-              a member of the Google Developers Student Club (GDSC) at KIIT,
-              where I am learning and working on exciting projects with a team
-              of talented developers.
+            I completed my BCA from Yashwant Rao Chavan Maharashtra Open University (YCMOU), achieving a commendable 7.45 CGPA. This academic journey has equipped me with valuable knowledge and skills in computer applications, setting the foundation for my career in technology.
             </p>
           </div>
         </div>
         <div className="flex flex-col mr-2 sm:mr-0 md:ml-5 gap-1 items-center justify-center">
           <div className="__circle h-4 w-4 border-[2px] border-[blueviolet] rounded-full"></div>
-          <div className="__line h-[520px] sm:h-[320px] md:h-[400px] lg:h-[300px] w-[2px] bg-[blueviolet]"></div>
+          <div className="__line h-[400px] sm:h-[255px] md:h-[335px] lg:h-[235px] w-[2px] bg-[blueviolet]"></div>
         </div>
       </div>
 
@@ -81,7 +73,7 @@ const Education = () => {
         </div>
         <div className="flex flex-col mr-2 sm:mr-0 md:ml-5 gap-1 items-center justify-center">
           <div className="__circle h-4 w-4 border-[2px] border-[blueviolet] rounded-full"></div>
-          <div className="__line h-[300px] sm:h-[180px] md:h-[200px] lg:h-[180px] w-[2px] bg-[blueviolet]"></div>
+          <div className="__line h-[260px] sm:h-[180px] md:h-[200px] lg:h-[180px] w-[2px] bg-[blueviolet]"></div>
         </div>
       </div>
 
