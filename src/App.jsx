@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Education from './components/Education'
 import Certification from './components/Certification'
 import Footer from './components/Footer'
+import "./App.css"
 
 const App = () => {
   return (
