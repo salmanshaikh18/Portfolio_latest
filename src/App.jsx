@@ -10,7 +10,7 @@ import "./App.css"
 
 const App = () => {
   return (
-    <div className='w-full min-h-screen px-4 sm:px-10 bg-[#090917] text-white'>
+    <div className='w-full min-h-screen px-4 sm:px-20 bg-[#090917] text-white'>
       <Header />
       <About />
       <Skills />

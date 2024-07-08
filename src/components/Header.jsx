@@ -5,8 +5,8 @@ import { MdClose } from "react-icons/md";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="h-[60px] z-50 fixed top-0 right-0 left-0 bg-slate-900 flex justify-center items-center">
-      <nav className="flex justify-between w-full px-4 items-center font-medium">
+    <header className="h-[60px] z-50 fixed top-0 right-0 px-4 sm:-px-5 lg:px-20 left-0 bg-slate-900 flex justify-center items-center">
+      <nav className="flex justify-between w-full items-center font-medium">
         <div className="__logo">
           <h1 className="font-bold relative z-50 text-lg cursor-pointer">
             Portfolio
