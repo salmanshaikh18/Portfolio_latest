@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="min-h-[calc(100vh-60px)] mt-10 flex flex-col items-center justify-start">
+    <div id="projects" className="min-h-[calc(100vh-60px)] mt-10 flex flex-col items-center justify-start">
       <h1 className="text-4xl lg:text-5xl mt-12 mb-6 font-bold">Projects</h1>
       <div className="md:w-1/2 sm:w-[60%] w-[90%] lg:w-[40%]">
         <p className="text-[16px] md:text-lg text-zinc-400 text-center">
