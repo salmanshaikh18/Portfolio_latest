@@ -10,10 +10,10 @@ const Education = () => {
           educational details are as follows.
         </p>
       </div>
-      <div className="h-full w-full flex justify-center items-center my-1">
+      <div className="h-full w-full flex justify-center items-center mt-10">
         <div className="__educationCard bg-[#171721] h-[30%] md:w-[60%] w-full mx-2 sm:mx-0 p-4 rounded-xl">
           <div className="flex items-center gap-4">
-            <div className="sm:h-14 sm:w-14">
+            <div className="sm:h-14 sm:w-14 w-24">
               <img
                 src="https://ycmou.digitaluniversity.ac/Images/Logo.jpg"
                 className="h-full w-full rounded-full"
@@ -54,7 +54,7 @@ const Education = () => {
       <div className="h-full w-full flex justify-center items-center">
         <div className="__educationCard bg-[#171721] h-[30%] md:w-[60%] w-full mx-2 sm:mx-0 p-4 rounded-xl">
           <div className="flex items-center gap-4">
-            <div className="sm:h-14 sm:w-14">
+            <div className="sm:h-14 sm:w-14 w-16">
               <img
                 src="https://mahahsscboard.in/boardlogo.svg
                 "
@@ -81,14 +81,14 @@ const Education = () => {
         </div>
         <div className="flex flex-col mr-2 sm:mr-0 md:ml-5 gap-1 items-center justify-center">
           <div className="__circle h-4 w-4 border-[2px] border-[blueviolet] rounded-full"></div>
-          <div className="__line h-[220px] sm:h-[180px] md:h-[200px] lg:h-[180px] w-[2px] bg-[blueviolet]"></div>
+          <div className="__line h-[300px] sm:h-[180px] md:h-[200px] lg:h-[180px] w-[2px] bg-[blueviolet]"></div>
         </div>
       </div>
 
       <div className="h-full w-full flex justify-center items-center mb-10">
         <div className="__educationCard bg-[#171721] h-[30%] md:w-[60%] w-full mx-2 sm:mx-0 p-4 rounded-xl">
           <div className="flex items-center gap-4">
-            <div className="sm:h-14 sm:w-14">
+            <div className="sm:h-14 sm:w-14 w-16">
               <img
                 src="https://mahahsscboard.in/boardlogo.svg
                 "
@@ -115,7 +115,7 @@ const Education = () => {
         </div>
         <div className="flex flex-col mr-2 sm:mr-0 md:ml-5 gap-1 items-center justify-center">
           <div className="__circle h-4 w-4 border-[2px] border-[blueviolet] rounded-full"></div>
-          <div className="__line h-[220px] sm:h-[180px] md:h-[200px] lg:h-[180px] w-[2px] bg-[blueviolet]"></div>
+          <div className="__line h-[230px] sm:h-[180px] md:h-[200px] lg:h-[180px] w-[2px] bg-[blueviolet]"></div>
         </div>
       </div>
     </div>
