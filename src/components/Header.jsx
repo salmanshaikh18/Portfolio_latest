@@ -49,7 +49,7 @@ const Header = () => {
             )}
           </div>
           {showMenu && (
-            <div className="bg-slate-800 rounded-b-md absolute top-[60px] right-0 h-60 w-screen">
+            <div className="bg-slate-900 rounded-b-md absolute top-[60px] right-0 h-60 w-screen">
               <nav className="flex justify-center items-center h-full">
                 <ul className="flex flex-col justify-center items-center gap-3 text-lg">
                   <li>
