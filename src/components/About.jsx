@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </div>
       <div className="__rightSection flex justify-center lg:justify-end items-center h-full w-full md:w-[35%]">
-        <div className="h-40 w-40 sm:h-60 sm:w-60 lg:h-80 lg:w-80 border-2 border-[blueviolet] rounded-full bg-red-500">
+        <div className="h-40 w-40 sm:h-60 sm:w-60 lg:h-80 lg:w-80 border-2 border-[blueviolet] rounded-full">
             <img src={profileImg} className="h-full w-full rounded-full bg-center bg-cover" alt="" />
         </div>
       </div>
