@@ -55,10 +55,7 @@ const Projects = () => {
           <div>
             <h1 className="text-zinc-300 mb-2 font-bold text-lg">CodeSpace</h1>
             <p className="text-zinc-400">
-              In CodeEditor ✍️, users can write, run, save, and download code in
-              HTML, CSS, and JavaScript seamlessly. Enjoy a complete and secure
-              login/register functionality 🔐 with encrypted passwords stored in
-              a database 📂.
+            ✨ A user-friendly coding platform for writing, running, saving, and downloading code. 💻 Designed with useful features to enhance productivity and flexibility in coding tasks. 🚀
             </p>
           </div>
           <div className="flex justify-center items-center gap-6 text-sm">
@@ -180,10 +177,10 @@ const Projects = () => {
               AI Assistant
             </h1>
             <p className="text-zinc-400">
-              A helpful platform ready to answer any question
-              you have. Just ask, and it provides quick and accurate responses
-              using artificial intelligence 🧠. Your go-to for information and
-              assistance anytime, anywhere! 🌐
+              A helpful platform ready to answer any question you have. Just
+              ask, and it provides quick and accurate responses using artificial
+              intelligence 🧠. Your go-to for information and assistance
+              anytime, anywhere! 🌐
             </p>
           </div>
           <div className="flex justify-center items-center gap-6 text-sm">
