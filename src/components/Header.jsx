@@ -30,9 +30,9 @@ const Header = () => {
           </li>
         </ul>
         <div className="sm:flex hidden justify-center items-center">
-          <button className="text-[blueviolet] border-[1px] border-[blueviolet] px-4 py-2 rounded-full">
+          <a href="https://github.com/salmanshaikh18" className="text-[blueviolet] cursor-pointer border-[1px] border-[blueviolet] px-4 py-2 rounded-full">
             GitHub Profile
-          </button>
+          </a>
         </div>
         <div className="sm:hidden flex justify-center items-center">
           <div>

@@ -26,7 +26,7 @@ const Footer = () => {
           </li>
         </ul>
         <div className="flex justify-center items-center gap-6 my-7 text-3xl">
-          <a target="_blank" href="www.linkedin.com/in/salman-shaikh-aa15b9253">
+          <a target="_blank" href="https://linkedin.com/in/salman-shaikh-aa15b9253">
             <FaLinkedin className="cursor-pointer text-[white] bg-black hover:scale-105 transition-all ease-in-out duration-300" />
           </a>
           <a target="_blank" href="https://github.com/salmanshaikh18">
