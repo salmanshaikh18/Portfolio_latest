@@ -89,9 +89,9 @@ const Projects = () => {
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               ReactJS
             </p>
-            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+            {/* <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               Typescript
-            </p>
+            </p> */}
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               HTML
             </p>
@@ -101,7 +101,7 @@ const Projects = () => {
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               JavaSript
             </p>
-            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+            {/* <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               NodeJs
             </p>
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
@@ -109,7 +109,7 @@ const Projects = () => {
             </p>
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               MongoDB
-            </p>
+            </p> */}
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               TailwindCSS
             </p>
@@ -150,9 +150,9 @@ const Projects = () => {
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               ReactJS
             </p>
-            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+            {/* <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               Typescript
-            </p>
+            </p> */}
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               HTML
             </p>
@@ -162,15 +162,15 @@ const Projects = () => {
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               JavaSript
             </p>
-            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+            {/* <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               NodeJs
-            </p>
-            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+            </p> */}
+            {/* <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               ExpressJS
-            </p>
-            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+            </p> */}
+            {/* <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               MongoDB
-            </p>
+            </p> */}
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               TailwindCSS
             </p>
