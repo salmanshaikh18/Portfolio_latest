@@ -36,7 +36,7 @@ const Certification = () => {
             </div>
           </div>
           <h1 className="text-zinc-400 my-4 font-bold flex gap-4 justify-start items-start">
-           <div className="text-lg">Skills: </div>
+            <div className="text-lg">Skills: </div>
             <div className="flex flex-wrap justify-start font-medium items-center gap-2">
               <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[15px]">
                 ReactJS
@@ -67,7 +67,7 @@ const Certification = () => {
           <div className="flex flex-col justify-center items-start gap-4">
             <p className="text-zinc-400 text-[15px]">
               I certified in Full Stack Web Development from{" "}
-              <span>pwskill.com</span>. This certification highlights my ability
+              <span>PW Skills (Physics Wallah)</span>. This certification highlights my ability
               to create comprehensive web applications.
             </p>
             <a
@@ -99,9 +99,8 @@ const Certification = () => {
             </div>
           </div>
           <h1 className="text-zinc-400 my-4 font-bold flex gap-4 justify-start items-start">
-           <div className="text-lg">Skills: </div>
+            <div className="text-lg">Skills: </div>
             <div className="flex flex-wrap justify-start font-medium items-center gap-2">
-            
               <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[15px]">
                 JavaSript
               </p>
@@ -121,9 +120,10 @@ const Certification = () => {
           </h1>
           <div className="flex flex-col justify-center items-start gap-4">
             <p className="text-zinc-400 text-[15px]">
-              I certified in Backend Development from{" "}
-              <span>pwskill.com</span>. This certification highlights my ability
-              to create comprehensive web applications.
+              I certified in Backend Development from <span>PW Skills (Physics Wallah)</span>.
+              This certification highlights my ability to
+              build scalable server-side applications, manage databases, and
+              implement RESTful APIs.
             </p>
             <a
               target="_blank"
