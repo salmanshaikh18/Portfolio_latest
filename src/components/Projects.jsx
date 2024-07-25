@@ -17,7 +17,7 @@ const Projects = () => {
         </p>
       </div>
       <div className="py-10 flex flex-wrap items-center justify-center gap-10">
-        <div className="__projectCard flex flex-col justify-start items-center gap-4 p-4 bg-[#101725] h-[530px] w-80 rounded-xl">
+        <div className="__projectCard transition-all ease-in-out duration-300 shadow-[0_0_10px_1px_gray] hover:shadow-[0_0_10px_1px_lightblue] flex flex-col justify-start items-center gap-4 p-4 bg-[#101725] h-[530px] w-80 rounded-xl">
           <div className="__imgContainer h-[50%] w-full rounded-xl">
             <video autoPlay loop muted className="h-full w-full rounded-xl">
               <source src={codeSpaceVideo} type="video/mp4" />
@@ -75,7 +75,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="__projectCard flex flex-col justify-start items-center gap-4 p-4 bg-[#101725] h-[530px] w-80 rounded-xl">
+        <div className="__projectCard transition-all ease-in-out duration-300 shadow-[0_0_10px_1px_gray] hover:shadow-[0_0_10px_1px_lightblue] flex flex-col justify-start items-center gap-4 p-4 bg-[#101725] h-[530px] w-80 rounded-xl">
           <div className="__imgContainer h-[50%] w-full">
             {/* <img src="" className="h-full w-full rounded-xl" /> */}
             <video autoPlay loop muted className="h-full w-full rounded-xl">
@@ -137,7 +137,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="__projectCard flex flex-col justify-start items-center gap-4 p-4 bg-[#101725] h-[530px] w-80 rounded-xl">
+        <div className="__projectCard transition-all ease-in-out duration-300 shadow-[0_0_10px_1px_gray] hover:shadow-[0_0_10px_1px_lightblue] flex flex-col justify-start items-center gap-4 p-4 bg-[#101725] h-[530px] w-80 rounded-xl">
           <div className="__imgContainer h-[50%] w-full rounded-xl">
             <video autoPlay loop muted className="h-full w-full rounded-xl">
               <source src={aiAssistantVideo} type="video/mp4" />

@@ -8,24 +8,24 @@ const Header = () => {
     <header className="h-[60px] z-50 fixed top-0 right-0 px-4 sm:-px-5 lg:px-20 left-0 bg-slate-900 flex justify-center items-center">
       <nav className="flex justify-between w-full items-center font-medium">
         <div className="__logo">
-          <h1 className="font-bold relative z-50 text-lg cursor-pointer">
+          <h1 className="font-bold text-[blueviolet] relative z-50 text-lg cursor-pointer">
             Portfolio
           </h1>
         </div>
-        <ul className="sm:flex hidden justify-center items-center gap-4">
-          <li>
+        <ul className="sm:flex text-[#7C73E6] hidden justify-center items-center lg:gap-8 gap-4">
+          <li className="transition-all ease-in-out duration-300 hover:underline hover:text-purple-500">
             <a href="#about">About</a>
           </li>
-          <li>
+          <li className="transition-all ease-in-out duration-300 hover:underline hover:text-purple-500">
             <a href="#skills">Skills</a>
           </li>
-          <li>
+          <li className="transition-all ease-in-out duration-300 hover:underline hover:text-purple-500">
             <a href="#projects">Projects</a>
           </li>
-          <li>
+          <li className="transition-all ease-in-out duration-300 hover:underline hover:text-purple-500">
             <a href="#certification">Certification</a>
           </li>
-          <li>
+          <li className="transition-all ease-in-out duration-300 hover:underline hover:text-purple-500">
             <a href="#education">Education</a>
           </li>
         </ul>
