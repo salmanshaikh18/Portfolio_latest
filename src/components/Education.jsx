@@ -22,7 +22,7 @@ const Education = () => {
             </div>
             <div>
               <p className="text-sm md:text-lg font-bold text-zinc-400">
-                Yashwantrao Chavan Maaharashtra Open University
+                Yashwantrao Chavan Maharashtra Open University
               </p>
               <p className="text-zinc-400 text-sm md:text-[16px] md:font-bold">
                 Bachelors in Computer Application
