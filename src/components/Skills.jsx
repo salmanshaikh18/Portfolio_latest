@@ -114,7 +114,7 @@ const Skills = () => {
               GitHub
             </span>
             <span className="border py-2 px-4 rounded-xl border-zinc-400 flex justify-center items-center gap-2">
-              <VscVscode db className="text-xl text-[#20B1F3]" />
+              <VscVscode className="text-xl text-[#20B1F3]" />
               VSCode
             </span>
             <span className="border py-2 px-4 rounded-xl border-zinc-400 flex justify-center items-center gap-2">
