@@ -16,9 +16,9 @@ import { VscVscode } from "react-icons/vsc";
 
 const Skills = () => {
   return (
-    <div id="skills" className="min-h-[calc(100vh-60px)] w-full mt-[60px]">
+    <div id="skills" className="min-h-[calc(100vh-70px)] w-full mt-[60px]">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-4xl lg:text-5xl mt-12 mb-6 font-bold">Skills</h1>
+        <h1 className="text-4xl lg:text-5xl mt-[70px] mb-6 font-bold">Skills</h1>
         <div className="md:w-1/2 sm:w-[60%] w-[90%] lg:w-[40%]">
           <p className="text-[16px] md:text-lg text-zinc-400 text-center">
             Here are some of my skills on which I have been working on for the

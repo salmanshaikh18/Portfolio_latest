@@ -3,7 +3,7 @@ import React from "react";
 const Education = () => {
   return (
     <div id="education" className="min-h-[calc(100vh-60px)] w-full flex flex-col mt-10 items-center">
-      <h1 className="text-4xl lg:text-5xl mt-12 mb-6 font-bold">Education</h1>
+      <h1 className="text-4xl lg:text-5xl mt-[70px] mb-6 font-bold">Education</h1>
       <div className="md:w-1/2 sm:w-[60%] w-[90%] lg:w-[40%]">
         <p className="text-[16px] md:text-lg text-zinc-400 text-center">
           My education has been a journey of self-discovery and growth. My
