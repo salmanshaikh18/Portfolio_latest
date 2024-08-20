@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center items-center flex-col">
+    <div id="contact" className="flex justify-center items-center flex-col">
       <div className="flex flex-col justify-center items-center gap-6 my-7 text-3xl bg-slate-800s px-2 rounded-md py-4">
         
         <h1 className="text-3xl sm:text-4xl mt-12 mb-6 font-bold text-[#854CE6]">

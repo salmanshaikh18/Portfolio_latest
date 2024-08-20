@@ -20,10 +20,10 @@ const Skills = () => {
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-4xl lg:text-5xl mt-[70px] mb-6 font-bold">Skills</h1>
         <div className="md:w-1/2 sm:w-[60%] w-[90%] lg:w-[40%]">
-          <p className="text-[16px] md:text-lg text-zinc-400 text-center">
+          {/* <p className="text-[16px] md:text-lg text-zinc-400 text-center">
             Here are some of my skills on which I have been working on for the
             past 2 years.
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center py-10 gap-10 sm:gap-6">

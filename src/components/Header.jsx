@@ -28,13 +28,27 @@ const Header = () => {
           <li className="transition-all ease-in-out duration-300 hover:underline hover:text-purple-500">
             <a href="#education">Education</a>
           </li>
+          <li className="transition-all ease-in-out duration-300 hover:underline hover:text-purple-500">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
-        <div className="sm:flex hidden justify-center items-center">
-          <a href="https://github.com/salmanshaikh18" className="text-[blueviolet] cursor-pointer border-[1px] border-[blueviolet] px-4 py-2 rounded-full">
+        <div className="md:flex hidden justify-center items-center">
+          <a
+            target="_blank"
+            href="https://github.com/salmanshaikh18"
+            className="text-[blueviolet] cursor-pointer border-[1px] border-[blueviolet] px-4 py-2 rounded-full"
+          >
             GitHub Profile
           </a>
         </div>
-        <div className="sm:hidden flex justify-center items-center">
+        <div className="sm:hidden flex justify-center items-center gap-10">
+          <a
+            target="_blank"
+            href="https://github.com/salmanshaikh18"
+            className="text-[blueviolet] text-center cursor-pointer border-[1px] border-[blueviolet] px-4 py-2 rounded-full"
+          >
+            GitHub Profile
+          </a>
           <div>
             {!showMenu ? (
               <FiMenu
@@ -49,7 +63,7 @@ const Header = () => {
             )}
           </div>
           {showMenu && (
-            <div className="bg-slate-900 rounded-b-md absolute top-[60px] right-0 h-60 w-screen">
+            <div className="bg-slate-950/90 rounded-b-md absolute top-[60px] right-0 h-80 w-screen">
               <nav className="flex justify-center items-center h-full">
                 <ul className="flex flex-col justify-center items-center gap-3 text-lg">
                   <li>
@@ -66,6 +80,17 @@ const Header = () => {
                   </li>
                   <li>
                     <a href="#education">Education</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/salmanshaikh18"
+                      className="text-[blueviolet] cursor-pointer border-[1px] border-[blueviolet] px-4 py-2 rounded-full"
+                    >
+                      GitHub Profile
+                    </a>
                   </li>
                 </ul>
               </nav>

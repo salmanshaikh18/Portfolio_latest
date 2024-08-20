@@ -2,6 +2,7 @@ import React from "react";
 import movieTimeVideo from "../assets/videos/movie-time.webm";
 import codeSpaceVideo from "../assets/videos/CodeSpace.webm";
 import aiAssistantVideo from "../assets/videos/AiAssistant.webm";
+import TweetHubVideo from "../assets/videos/TweetHub.webm"
 
 const Projects = () => {
   return (
@@ -49,6 +50,9 @@ const Projects = () => {
               MongoDB
             </p>
             <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              Redux
+            </p>
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
               TailwindCSS
             </p>
           </div>
@@ -69,6 +73,68 @@ const Projects = () => {
             <a
               target="_blank"
               href="https://github.com/salmanshaikh18/CodeSpace_OnlineCodingPlatform"
+              className="px-4 py-2 bg-[#1f2146] border-2 border-[#480c80] hover:bg-[#161944] hover:scale-105 transition-all ease-in-out duration-300 rounded-lg"
+            >
+              Source Code
+            </a>
+          </div>
+        </div>
+        <div className="__projectCard transition-all ease-in-out duration-300 shadow-[0_0_10px_1px_gray] hover:shadow-[0_0_10px_1px_lightblue] flex flex-col justify-start items-center gap-4 p-4 bg-[#101725] h-[530px] w-80 rounded-xl">
+          <div className="__imgContainer h-[50%] w-full">
+            {/* <img src="" className="h-full w-full rounded-xl" /> */}
+            <video autoPlay loop muted className="h-full w-full rounded-xl">
+              <source src={TweetHubVideo} type="video/mp4" />
+            </video>
+          </div>
+          <div className="flex flex-wrap justify-start items-center gap-2">
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              ReactJS
+            </p>
+            {/* <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              Typescript
+            </p> */}
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              HTML
+            </p>
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              CSS
+            </p>
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              JavaSript
+            </p>
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              NodeJs
+            </p>
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              ExpressJS
+            </p>
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              MongoDB
+            </p>
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              TailwindCSS
+            </p>
+            <p className="text-[#9254FD] bg-[#1D1E3A] py-1 px-2 rounded-full text-[14px]">
+              Redux
+            </p>
+          </div>
+          <div>
+            <h1 className="text-zinc-300 mb-2 font-bold text-lg">TweetHub</h1>
+            <p className="text-zinc-400">
+            Users can post tweets, view other users' profiles, follow and unfollow users, and like or delete tweets. Users can see their own tweets as well as those from users they follow.
+            </p>
+          </div>
+          <div className="flex justify-center items-center gap-6 text-sm">
+            <a
+              target="_blank"
+              href="https://movie-time-qkx2.onrender.com/"
+              className="px-4 py-2 bg-[#1f2146] border-2 border-[#480c80] hover:bg-[#161944] hover:scale-105 transition-all ease-in-out duration-300 rounded-lg"
+            >
+              View WebApp
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/salmanshaikh18/MovieTime"
               className="px-4 py-2 bg-[#1f2146] border-2 border-[#480c80] hover:bg-[#161944] hover:scale-105 transition-all ease-in-out duration-300 rounded-lg"
             >
               Source Code

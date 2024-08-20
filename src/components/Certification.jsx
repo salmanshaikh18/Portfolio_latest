@@ -7,7 +7,7 @@ const Certification = () => {
       className="min-h-[calc(100vh-60px)] w-full flex flex-col my-10 items-center"
     >
       <h1 className="text-4xl lg:text-5xl mt-[70px] mb-6 font-bold">
-        Certification
+        Certifications
       </h1>
       <div className="md:w-1/2 sm:w-[60%] w-[90%] lg:w-[40%]">
         <p className="text-[16px] md:text-lg text-zinc-400 text-center">
