@@ -127,14 +127,14 @@ const Projects = () => {
           <div className="flex justify-center items-center gap-6 text-sm">
             <a
               target="_blank"
-              href="https://movie-time-qkx2.onrender.com/"
+              href="https://tweethub-z92x.onrender.com/"
               className="px-4 py-2 bg-[#1f2146] border-2 border-[#480c80] hover:bg-[#161944] hover:scale-105 transition-all ease-in-out duration-300 rounded-lg"
             >
               View WebApp
             </a>
             <a
               target="_blank"
-              href="https://github.com/salmanshaikh18/MovieTime"
+              href="https://github.com/salmanshaikh18/TweetHub-MERN"
               className="px-4 py-2 bg-[#1f2146] border-2 border-[#480c80] hover:bg-[#161944] hover:scale-105 transition-all ease-in-out duration-300 rounded-lg"
             >
               Source Code
