@@ -1,7 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import profileImg from "../assets/profileImg.jpg"
-import profileImg1 from "../assets/salman1.png"
+import profileImg1 from "../assets/salman.png"
 
 const About = () => {
   return (
