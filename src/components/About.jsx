@@ -43,7 +43,7 @@ const About = () => {
           </p>
         </div>
         <div className="flex justify-start items-center mt-10">
-            <a target="_blank" href="https://drive.google.com/file/d/1FFG72FBzJqCaJxDSww6u0FxVthYAy6Tt/view?usp=sharing" className="bg-[#7616cf] transition-all ease-in-out duration-300 hover:scale-105 hover:bg-[#5909a5] font-medium text-sm md:text-[16px] px-4 py-2 rounded-full">Check Resume</a>
+            <a target="_blank" href="https://drive.google.com/file/d/1p-tSPu8zLRZmJLIhNzXUT5fB8-OjlN0i/view?usp=sharing" className="bg-[#7616cf] transition-all ease-in-out duration-300 hover:scale-105 hover:bg-[#5909a5] font-medium text-sm md:text-[16px] px-4 py-2 rounded-full">Check Resume</a>
         </div>
       </div>
       <div className="__rightSection flex justify-center lg:justify-end items-center h-full w-full md:w-[35%]">
