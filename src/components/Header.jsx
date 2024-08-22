@@ -42,13 +42,13 @@ const Header = () => {
           </a>
         </div>
         <div className="sm:hidden flex justify-center items-center gap-10">
-          <a
+          {/* <a
             target="_blank"
             href="https://github.com/salmanshaikh18"
             className="text-[blueviolet] text-center cursor-pointer border-[1px] border-[blueviolet] px-4 py-2 rounded-full"
           >
             GitHub Profile
-          </a>
+          </a> */}
           <div>
             {!showMenu ? (
               <FiMenu
@@ -63,29 +63,60 @@ const Header = () => {
             )}
           </div>
           {showMenu && (
-            <div className="bg-slate-950/90 rounded-b-md absolute top-[60px] right-0 h-80 w-screen">
+            <div className="bg-slate-950/90 rounded-b-md absolute top-[60px] right-0 h-[350px] w-screen">
               <nav className="flex justify-center items-center h-full">
-                <ul className="flex flex-col justify-center items-center gap-3 text-lg">
+                <ul className="flex flex-col justify-center items-center gap-4 text-lg">
                   <li>
-                    <a href="#about">About</a>
-                  </li>
-                  <li>
-                    <a href="#skills">Skills</a>
-                  </li>
-                  <li>
-                    <a href="#projects">Projects</a>
-                  </li>
-                  <li>
-                    <a href="#certification">Certification</a>
-                  </li>
-                  <li>
-                    <a href="#education">Education</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contact</a>
+                    <a
+                      onClick={() => setShowMenu((prev) => !prev)}
+                      href="#about"
+                    >
+                      About
+                    </a>
                   </li>
                   <li>
                     <a
+                      onClick={() => setShowMenu((prev) => !prev)}
+                      href="#skills"
+                    >
+                      Skills
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      onClick={() => setShowMenu((prev) => !prev)}
+                      href="#projects"
+                    >
+                      Projects
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      onClick={() => setShowMenu((prev) => !prev)}
+                      href="#certification"
+                    >
+                      Certification
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      onClick={() => setShowMenu((prev) => !prev)}
+                      href="#education"
+                    >
+                      Education
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      onClick={() => setShowMenu((prev) => !prev)}
+                      href="#contact"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                  <li className="mt-2">
+                    <a
+                      onClick={() => setShowMenu((prev) => !prev)}
                       href="https://github.com/salmanshaikh18"
                       className="text-[blueviolet] cursor-pointer border-[1px] border-[blueviolet] px-4 py-2 rounded-full"
                     >
