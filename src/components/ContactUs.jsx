@@ -59,13 +59,13 @@ const ContactUs = () => {
       <div className="w-full text-lg flex flex-col md:flex-row py-10">
         <div className="__left md:w-1/2 flex flex-col text-center md:text-start md:ml-20 my-10">
           <div className="text-zinc-400 flex flex-col justify-center md:justify-start md:items-start items-center">
-            <p className="flex text-blue-500 hover:text-blue-600 items-center md:w-[70%] gap-4 my-3">
+            <p className="flex text-purple-500 hover:text-blue-600 items-center md:w-[70%] gap-4 my-3">
               <span className="text-blue-500 text-xl">
                 <IoLocationOutline />
               </span>
               India, Mumbai
             </p>
-            <p className="flex text-blue-500 items-center gap-4 my-3 md:w-[70%] transition-all ease-in-out duration-500 hover:text-blue-600 cursor-pointer">
+            <p className="flex text-purple-500 items-center gap-4 my-3 md:w-[70%] transition-all ease-in-out duration-500 hover:text-blue-600 cursor-pointer">
               <span className="text-blue-500">
                 <MdOutlineEmail className="text-xl" />
               </span>
