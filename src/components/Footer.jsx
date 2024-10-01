@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <h1 className="text-zinc-3000 mb-10 text-xl">Salman Shaikh</h1>
+      <h1 className="text-zinc-3000 text-blue-500 mb-10 text-xl">Salman Shaikh</h1>
       <div>
         <ul className="flex justify-center items-center gap-5 flex-wrap md:gap-10 text-lg text-[#7C73E6]">
           <li>
@@ -73,7 +73,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <p className="py-4 text-sm">&copy; Salman Shaikh. All Rights Reserved.</p>
+      <p className="py-4 text-zinc-400 text-sm">&copy; Salman Shaikh. All Rights Reserved.</p>
     </div>
   );
 };
