@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import ContactUs from "./ContactUs";
 
 const Footer = () => {
   return (
@@ -45,6 +46,7 @@ const Footer = () => {
             <a className="hover:text-[blueviolet] transition-all ease-in-out duration-300" href="#education">Education</a>
           </li>
         </ul>
+        <ContactUs />
       </div>
       <p className="py-4 text-sm">&copy; Salman Shaikh. All Rights Reserved.</p>
     </div>
